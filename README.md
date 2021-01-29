@@ -70,7 +70,7 @@ In particular, you will need to:
 - configure the "floor layer" (so that WorkAdventure can correctly display characters above the floor, but under the ceiling)
     - *Anmerkung Falk:* dafür eine *Objektebene* namens "`floorLayer`" anzeigen. In der ebene, in der der Avatar angezeigt werden soll. ![](docs/floorLayer.png)
 - eventually, you can place exits that link to other maps
-    - *Anmerkung Falk:* dafür legt man eine Ebene an (muss der Name zwingend mit "`exit_`" beginnen?) und definiert über Tiles den Exitbereich. Die benutzerdefiniert Ebeneneigenschaftv "`exitSceneUrl`" gibt die Zielmap an.
+    - *Anmerkung Falk:* dafür legt man eine Ebene an (muss der Name zwingend mit "`exit_`" beginnen?) und definiert über Tiles den Exitbereich. Die benutzerdefiniert Ebeneneigenschaftv "`exitSceneUrl`" gibt die Zielmap an. ![](docs/exit.png)
 - *Anmerkung Falk:* Collider
     - Avatare kollidieren mit Tiles, wenn das Tile in der Tilemap die benutzerdefinierte Eigenschaft `collides` (Typ `bool`) hat und diese `true` ist. ![](docs/collider.png)
 
