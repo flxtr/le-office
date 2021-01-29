@@ -79,7 +79,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"Besprechung"
+                 "value":"GTBfhQ0_TB_Besprechung"
                 }, 
                 {
                  "name":"jitsiTrigger",
@@ -102,7 +102,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"Lounge"
+                 "value":"GTBfhQ0_TB_le_Lounge"
                 }],
          "type":"tilelayer",
          "visible":true,
