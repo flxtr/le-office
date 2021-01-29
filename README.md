@@ -65,6 +65,8 @@ In order to design a map that will be readable by WorkAdventure, you will have t
 In particular, you will need to:
 
 - set a start position for the players
+    - *Anmerkung Falk: * dafür legt man eine Ebene names "`start`" an und platziert eine Tile, die den Startpunkt markiert. ![](docs/start.png)
+        - Was passiert, wenn man mehrere Tiles in der `start` ebene hat?
 - configure the "floor layer" (so that WorkAdventure can correctly display characters above the floor, but under the ceiling)
 - eventually, you can place exits that link to other maps
 
