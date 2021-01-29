@@ -74,10 +74,10 @@ In particular, you will need to:
 - *Anmerkung Falk:* Collider
     - Avatare kollidieren mit Tiles, wenn das Tile in der Tilemap die benutzerdefinierte Eigenschaft `collides` (Typ `bool`) hat und diese `true` ist. ![](docs/collider.png)
 
-All this is described in the -[WorkAdventure documentation](https://github.com/thecodingmachine/workadventure/#designing-a-map).-
+All this is described in the ~~[WorkAdventure documentation](https://github.com/thecodingmachine/workadventure/#designing-a-map).~~
 Please be sure to check it out. 
 
-- *Anmerkung Falk:* Hier scheint alles gut dokumentiert [Map Building](https://workadventu.re/map-building
+- *Anmerkung Falk:* Hier scheint alles gut dokumentiert [Map Building](https://workadventu.re/map-building)
 
 ### Pushing the map
 
