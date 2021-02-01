@@ -1,4 +1,11 @@
 { "compressionlevel":-1,
+  "editorsettings":
+  {
+    "export":
+    {
+      "target":"."
+    }
+  },
   "height":70,
   "infinite":false,
   "layers":[
@@ -42,7 +49,7 @@
         {
           "name":"exitUrl",
           "type":"string",
-          "value":".\/muc.json#enter_muc3"
+          "value":".\/muc.json"
         }],
       "type":"tilelayer",
       "visible":true,
