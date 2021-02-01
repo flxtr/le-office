@@ -19,7 +19,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/ess.it2media.de\/fiori\/#TimeEntry-manageCorrections"
+                 "value":"https:\/\/ess.it2media.de\/fiori\/"
                 }],
          "type":"tilelayer",
          "visible":true,
