@@ -19,7 +19,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/ess.it2media.de\/fiori\/"
+                 "value":".\/ess.html"
                 }],
          "type":"tilelayer",
          "visible":true,
