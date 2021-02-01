@@ -20,6 +20,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/flxtr.github.io\/le-office\/ess.html"
+                }, 
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
