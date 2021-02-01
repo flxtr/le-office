@@ -19,7 +19,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":".\/ess.html"
+                 "value":"https:\/\/flxtr.github.io\/le-office\/ess.html"
                 }],
          "type":"tilelayer",
          "visible":true,
