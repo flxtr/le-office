@@ -40,6 +40,11 @@
                  "value":"https:\/\/flxtr.github.io\/le-office\/ess.html"
                 }, 
                 {
+                 "name":"playAudio",
+                 "type":"string",
+                 "value":".\/le2clock.mp3"
+                }, 
+                {
                  "name":"startLayer",
                  "type":"bool",
                  "value":true
