@@ -42,7 +42,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":".\/le2clock.mp3"
+                 "value":"le2clock.mp3"
                 }, 
                 {
                  "name":"startLayer",
@@ -65,7 +65,7 @@
                 {
                  "name":"playAudioLoop",
                  "type":"string",
-                 "value":".\/le2servernoise.mp3"
+                 "value":"le2servernoise.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -83,7 +83,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":".\/le2doorbell.mp3"
+                 "value":"le2doorbell.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -101,7 +101,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":".\/le2flush.mp3"
+                 "value":"le2flush.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -137,7 +137,7 @@
                 {
                  "name":"playAudioLoop",
                  "type":"string",
-                 "value":".\/le2faucet.mp3"
+                 "value":"le2faucet.mp3"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -155,7 +155,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/muc.json#enter_le"
+                 "value":"muc.json#enter_le"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -300,6 +300,11 @@
          "name":"silent bed",
          "opacity":1,
          "properties":[
+                {
+                 "name":"playAudioLoop",
+                 "type":"string",
+                 "value":"Dee_Yan-Key_Dream_Time.mp3"
+                }, 
                 {
                  "name":"silent",
                  "type":"bool",
