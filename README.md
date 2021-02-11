@@ -65,11 +65,19 @@ In order to design a map that will be readable by WorkAdventure, you will have t
 In particular, you will need to:
 
 - set a start position for the players
+    - *Anmerkung Falk:* dafür legt man eine Ebene names "`start`" an und platziert eine Tile, die den Startpunkt markiert. ![](docs/start.png)
+        - Was passiert, wenn man mehrere Tiles in der `start` ebene hat?
 - configure the "floor layer" (so that WorkAdventure can correctly display characters above the floor, but under the ceiling)
+    - *Anmerkung Falk:* dafür eine *Objektebene* namens "`floorLayer`" anzeigen. In der ebene, in der der Avatar angezeigt werden soll. ![](docs/floorLayer.png)
 - eventually, you can place exits that link to other maps
+    - *Anmerkung Falk:* dafür legt man eine Ebene an (muss der Name zwingend mit "`exit_`" beginnen?) und definiert über Tiles den Exitbereich. Die benutzerdefiniert Ebeneneigenschaftv "`exitSceneUrl`" gibt die Zielmap an. ![](docs/exit.png)
+- *Anmerkung Falk:* Collider
+    - Avatare kollidieren mit Tiles, wenn das Tile in der Tilemap die benutzerdefinierte Eigenschaft `collides` (Typ `bool`) hat und diese `true` ist. ![](docs/collider.png)
 
-All this is described in the [WorkAdventure documentation](https://github.com/thecodingmachine/workadventure/#designing-a-map).
+All this is described in the ~~[WorkAdventure documentation](https://github.com/thecodingmachine/workadventure/#designing-a-map).~~
 Please be sure to check it out. 
+
+- *Anmerkung Falk:* Hier scheint alles gut dokumentiert [Map Building](https://workadventu.re/map-building)
 
 ### Pushing the map
 
